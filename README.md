@@ -15,7 +15,7 @@ TabView in SwiftUI has two important problems to me:
 
 This sample code shows how we can create easily our own custom TabBar with ZStack.
 
-** Your TabView can be customized in the tabBarView property. Do whatever you want here.
+**Your TabView can be customized in the tabBarView property. Do whatever you want here.**
 
   ``` swift
     var tabBarView: some View {
@@ -33,14 +33,14 @@ This sample code shows how we can create easily our own custom TabBar with ZStac
     }
   ```
 
-** Views are stored as properties in the ContentView to keep the current navigation state when changing tabs:
+**Views are stored as properties in the ContentView to keep the current navigation state when changing tabs:**
 
   ``` swift
     private var firstView = FirstView()
     private var secondView = SecondView()
   ```
 
-** If you don't need to hide the TabBar on any view, use it like this:
+**If you don't need to hide the TabBar on any view, use it like this:**
 
   ``` swift
     var body: some View {
@@ -60,7 +60,7 @@ This sample code shows how we can create easily our own custom TabBar with ZStac
     }
   ```
 
-** If you need to hide the TabBar in the second view, use it like this:
+**If you need to hide the TabBar in the second view, use it like this:**
 
   ``` swift
     var body: some View {

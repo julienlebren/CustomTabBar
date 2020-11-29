@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TabBarView.swift
 //  CustomTabBar
 //
 //  Created by Julien Le Bren on 29/11/2020.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TabBarView: View {
     enum Tab: Int {
         case first, second
     }
@@ -76,8 +76,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TabBarView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabBarView()
     }
 }

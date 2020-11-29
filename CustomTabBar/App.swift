@@ -1,5 +1,5 @@
 //
-//  CustomTabBarApp.swift
+//  App.swift
 //  CustomTabBar
 //
 //  Created by Julien Le Bren on 29/11/2020.
@@ -11,7 +11,7 @@ import SwiftUI
 struct CustomTabBarApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
     }
 }
